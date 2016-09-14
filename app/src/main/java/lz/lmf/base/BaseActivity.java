@@ -24,6 +24,7 @@ public class BaseActivity extends Activity implements NetBroadcastReceiver.NetEv
         // TODO Auto-generated method stub
         super.onCreate(arg0);
         evevt = this;
+        System.out.println("11111");
         inspectNet();
     }
 
